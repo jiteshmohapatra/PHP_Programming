@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>webpage 1</title>
+        <style>
+            .f1{
+border: 3px solid orange; border: 25px; border-style: groove; text-align: center; color: blue; background-color: teal; font-size: 30px; padding: 35px; margin: 45px; font-weight: bold; border-color: hotpink;
+
+
+
+            }
+
+        </style>
+    </head>
+    <body style="background-color: tomato;">
+
+        <form action="delete.php" method="post" class="f1">
+            <p>If you want to delete a row then select the a column name and enter the value. </p>
+            <p>
+                <select name="column" id="columnname">
+                    <option value="mov_id">mov_id</option>
+                    <option value="MOV_NAME">MOV_NAME</option>
+                    <option value="REALESE_YEAR">REALESE_YEAR</option>
+                    <option value="PROFIT">PROFIT</option>
+                    <option value="LOSS">LOSS</option>
+                </select>
+            </p>
+            <p>
+                <label for="value">Name : </label>
+                <input type="text" name="delvalue"  placeholder="Enter you want to delete.">
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+
+
+
+
+    </body>
+</html>
